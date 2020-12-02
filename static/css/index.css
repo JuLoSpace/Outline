@@ -35,15 +35,37 @@ nav {
 }
 
 .nav_item:hover {
-    color: #098dba;
+    color: #41B3A3;
 }
 
 
-.profile {
-    height: 35px;
-    width: 35px;
-    border: 1px solid #000;
-    border-radius: 50%;
-    background: url('/assets/images/image_profile1.jpeg');
-    cursor: pointer;
+.avatar {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+
+.Header-link {
+    font-weight: 600;
+    color: var(--color-header-logo);
+    white-space: nowrap;
+}
+
+summary {
+    display: list-item;
+}
+
+.dropdown-caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: "";
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right: 4px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 4px solid transparent;
 }
